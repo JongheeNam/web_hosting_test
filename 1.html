@@ -12,13 +12,14 @@
 </script>
         <title>web1 - html</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>ㅇㅇ</h1>
+        <h1 style="color: red;">ㅇㅇ</h1>
         <ol>
-            <li><a href="https://www.w3.org/TR/2011/WD-html5-20110405/">html</a></li>
-            <li>css</li>
-            <li>javascript</li>
+            <li class="class_selector1"><a href="https://www.w3.org/TR/2011/WD-html5-20110405/">html</a></li>
+            <li class="class_selector1 class_selector2">css</li>
+            <li class="class_selector1" id="id_selector">javascript</li>
         </ol>
         <ul>
             <li>a</li>
@@ -29,8 +30,10 @@
 
         <strong>dd<u>abd</u>dd</strong>
         <p>abc</p>
-        <img src="first_img.jpg" width="450">
-        <p style="margin-top: 40px;">abc</p>
+        <div class="grid">
+            <img src="first_img.jpg" width="450">
+            <p style="margin-top: 40px; text-align: center;">abc</p>
+        </div>
         <p>disqus를 통한 댓글기능</p>
         <div id="disqus_thread"></div>
         <script>

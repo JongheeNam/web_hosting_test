@@ -1,0 +1,45 @@
+@media (max-width:800px) {
+    body{
+        display: none;
+    }
+}
+/* 이건 media query 를 더 공부해봐야함 */
+#id_selector{
+    color:green;
+}
+/*id는 한개만 존재*/
+body {
+    color: black;
+    text-decoration: none;
+    border: 5px solid black;
+    padding: 40px;
+    margin: 20px;
+    width: 1000px;
+}
+/* css box model */
+h1 {
+    font-size: 45px;
+    text-align: center;
+    border: 5px;
+    border-color: red;
+    border-style: solid;
+
+}
+a {
+    color: red;
+    text-decoration: none;
+}
+.class_selector1 {
+    color:blue;
+}
+.class_selector2 {
+    color: black;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid p{
+    border: black 5px solid;
+}
+/*!--아래에 있는게 적용--*/
