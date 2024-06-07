@@ -1,11 +1,19 @@
 function dark_mode (myself) {
     var dark_style = document.querySelector('body').style;
     if(myself.checked) {
-        dark_style.backgroundColor = 'black';
-        dark_style.color = 'white';
+        setBackgroundColor('black');
+        setColor('black');
     }
     else {
-        dark_style.backgroundColor = 'white';
-        dark_style.color = 'black';
+        setBackgroundColor('white');
+        setColor('black');
+    }
+}
+var Body_dark_mode = {
+    setBackgroundColor : function (color) {
+        $('body').css('backgroundColor',color);
+    },
+    setColor : function (color) {
+        $('body').css('color',color);
     }
 }
