@@ -29,6 +29,9 @@ a {
     color: red;
     text-decoration: none;
 }
+.dark_mode_checkbox {
+    border: 2px green solid;
+}
 .class_selector1 {
     color:blue;
 }
